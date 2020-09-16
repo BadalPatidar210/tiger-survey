@@ -1,0 +1,12 @@
+.buttons {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  flex-direction: column;
+}
+.button {
+  width: 12em;
+  height: 4em;
+}

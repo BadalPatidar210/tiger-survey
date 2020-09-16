@@ -1,0 +1,8 @@
+.question-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+select > menuitem:hover {
+  background-color: hotpink;
+}
