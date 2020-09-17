@@ -25,7 +25,6 @@ function CreateSurvey() {
     setQuestionText("");
   };
   let questionAction = (value) => {
-    console.log("question ction chala");
     setQuestionText(value);
     console.log(value.text);
   };
