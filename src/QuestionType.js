@@ -6,13 +6,11 @@ function QuestionType(props) {
   const [value, setValue] = useState(0);
   useEffect(() => {
     props.currentAction(value);
-  });
+  }, [value]);
   return (
     <div className="question-type">
       <Select
-        onChange={(e) => {
-          setValue(e.target.value);
-        }}
+        onChange={(e) => setValue(e.target.value)}
         labelId="label"
         id="select"
         value={value}
